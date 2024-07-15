@@ -339,5 +339,20 @@ html {
     background-position: center;
 }
 
+.video-embbed {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
-.why-ableton 
+.why-ableton iframe {
+    width: 50vw;
+    height: 28vw;
+}
+
+.video-embbed .video-source {
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-top: 1.5rem;
+    align-self: self-start;
+}
