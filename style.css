@@ -152,6 +152,11 @@ html {
 }
 
 
+.hide {
+    display: none !important;
+}
+
+
 /* Main nav */
 .main-nav-container {
     display: flex;
