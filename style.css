@@ -196,6 +196,7 @@ html {
 }
 
 
+
 /* Sec nav */
 .sec-nav-container {
     display: flex;
@@ -206,6 +207,11 @@ html {
     padding: 0 2.5rem;
 }
 
+
+.content {
+    width: 100%;
+    height: 1500px;
+}
 
 .sec-nav-item a {
     color: black;
@@ -265,5 +271,59 @@ html {
 
 .more-on2 .main-sub-nav-item {
     margin-right: 3.5rem;
-    min-width: 25%;
+    min-width: 23%;
+}
+
+
+
+/* Main content */
+
+/* Headline img */
+.headline {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+
+
+.headline-img {
+    width: 82vw;
+    height: 100vh;
+    background-image: url("assert/images/header.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.headline-text {
+    position: absolute;
+    font-size: 12rem;
+    font-weight: 500;
+}
+
+
+/* Slogan */
+.slogan {
+    display: flex;
+    justify-content: center;
+}
+
+.slogan .container {
+    margin: 12rem;
+    width: 50%;
+}
+
+.slogan .inspired {
+    line-height: 4rem;
+    font-size: 2.5rem;
+    font-weight: 500;
+    margin-bottom: 1.5rem;
+}
+
+.slogan .history {
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 3rem;
 }
